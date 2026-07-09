@@ -18,3 +18,22 @@ A modern and responsive **multi-page shoe website** built using **HTML5** and **
 - CSS3
 - Google Fonts
 - Font Awesome
+
+**Current file structure**
+
+Task_11/
+├─ index.html
+├─ cart.html
+├─ product.html
+├─ payment.html
+├─ style.css
+├─ cart.css
+├─ product.css
+├─ payment.css
+├─ image/
+│  └─ (images and icons)
+└─ Readme.md
+
+**How to view**
+
+Open files directly: double-click `index.html`
