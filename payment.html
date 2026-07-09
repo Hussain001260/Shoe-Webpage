@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+
+    <link rel="stylesheet" href="payment.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Thala <span>7.</span></div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <a href="#">
+                    Brands <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    More <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+
+            <div class="cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <img src="./image/profile.jpg" alt="profile" class="profile-img">
+        </div>
+    </nav>
+
+    <section class="checkout-container">
+
+        <div class="checkout-form">
+
+            <h1>Checkout</h1>
+
+            <div class="contact-section">
+
+                <h3>Contact Details</h3>
+
+                <label>Email ID</label>
+
+                <input
+                type="email"
+                placeholder="abc@gmail.com">
+
+            </div>
+
+            <div class="payment-section">
+
+                <h3>Payment</h3>
+
+                <div class="payment-options">
+
+                    <div class="payment-option active">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <span>Card</span>
+                    </div>
+
+                    <div class="payment-option">
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <span>Crypto</span>
+                    </div>
+
+                    <div class="payment-option">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Bank</span>
+                    </div>
+
+                    <div class="payment-option">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                </div>
+
+                <label>Card Number</label>
+
+                <input
+                type="text"
+                placeholder="1234 5678 9012 3456">
+
+                <div class="row">
+
+                    <div>
+                        <label>Expiry</label>
+
+                        <input
+                        type="text"
+                        placeholder="MM/YY">
+                    </div>
+
+                    <div>
+                        <label>CVC</label>
+
+                        <input
+                        type="text"
+                        placeholder="123">
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div>
+
+                        <label>Country</label>
+
+                        <select>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+
+                    </div>
+
+                    <div>
+
+                        <label>ZIP</label>
+
+                        <input
+                        type="text"
+                        placeholder="700001">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="summary-card">
+
+            <h2>Order Summary</h2>
+
+            <p class="coupon-title">
+                Enter Coupon Code
+            </p>
+
+            <div class="coupon-section">
+
+                <input
+                type="text"
+                placeholder="COUPON CODE">
+
+                <button>
+                    Apply Coupon
+                </button>
+
+            </div>
+
+            <div class="price-details">
+
+                <div>
+                    <span>Sub Total</span>
+                    <span>₹4,700</span>
+                </div>
+
+                <div>
+                    <span>Taxes</span>
+                    <span>₹199</span>
+                </div>
+
+                <div>
+                    <span>Discount</span>
+                    <span>₹0</span>
+                </div>
+
+                <div class="total">
+
+                    <span>Total</span>
+                    <span>₹4,999</span>
+
+                </div>
+
+            </div>
+
+            <button class="pay-btn">
+                Pay Now ₹4,999
+            </button>
+
+            <div class="payments">
+
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Secure</span>
+
+                <span class="razorpay">
+                    Razorpay
+                </span>
+
+                <i class="fa-solid fa-money-check-dollar"></i>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

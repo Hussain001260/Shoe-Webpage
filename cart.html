@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+
+    <link rel="stylesheet" href="cart.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Thala <span>7.</span></div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <a href="#">
+                    Brands <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    More <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <img src="./image/profile.jpg" alt="profile" class="profile-img">
+        </div>
+    </nav>
+
+    <section class="cart-container">
+
+
+        <div class="left-cart">
+
+            <h1>Shopping Cart</h1>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Seven By M.S Dhoni Running Shoe</td>
+                        <td>- 1 +</td>
+                        <td>₹4,999</td>
+                        <td>
+                            <i class="fa-solid fa-xmark remove"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Seven By M.S Dhoni Running Shoe</td>
+                        <td>- 1 +</td>
+                        <td>₹4,999</td>
+                        <td>
+                            <i class="fa-solid fa-xmark remove"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Seven By M.S Dhoni Running Shoe</td>
+                        <td>- 1 +</td>
+                        <td>₹4,999</td>
+                        <td>
+                            <i class="fa-solid fa-xmark remove"></i>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <div class="summary-card">
+
+             <p class="coupon-title">
+                Enter Coupon Code
+            </p>
+
+            <div class="coupon-section">
+
+                <input
+                type="text"
+                placeholder="COUPON CODE">
+
+                <button>
+                    Apply Coupon
+                </button>
+
+            </div>
+
+            <div class="price-details">
+
+                <div>
+                    <span>Sub Total</span>
+                    <span>₹4,700</span>
+                </div>
+
+                <div>
+                    <span>Taxes</span>
+                    <span>₹199</span>
+                </div>
+
+                <div>
+                    <span>Discount</span>
+                    <span>₹0</span>
+                </div>
+
+                <div class="total">
+
+                    <span>Total</span>
+                    <span>₹4,999</span>
+
+                </div>
+
+            </div>
+                <a href="payment.html">
+                    <button class="pay-btn">
+                        Pay Now ₹4,999
+                    </button>
+                </a>
+
+            <div class="payments">
+
+                <img src="image/secure.png" alt="">
+                <img src="image/razorpay.png" alt="">
+                <img src="image/payment.png" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="continue">
+
+        <a href="product.html">
+            <i class="fa-solid fa-chevron-left"></i>
+            Continue Shopping
+        </a>
+
+    </div>
+
+</body>
+</html>
