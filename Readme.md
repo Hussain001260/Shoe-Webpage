@@ -21,18 +21,25 @@ A modern and responsive **multi-page shoe website** built using **HTML5** and **
 
 **Current file structure**
 
-Task_11/
-├─ index.html
-├─ cart.html
-├─ product.html
-├─ payment.html
-├─ style.css
-├─ cart.css
-├─ product.css
-├─ payment.css
-├─ image/
-│  └─ (images and icons)
-└─ Readme.md
+## 📂 Project Structure
+
+```
+Shoe-Webpage/
+│
+├── index.html
+├── main.css
+│
+├── image/
+│   ├── shoe_main.png
+│   ├── profile.jpg
+│   └── ...
+│
+├── product.html          (Coming Soon)
+├── about.html            (Coming Soon)
+├── contact.html          (Coming Soon)
+│
+└── README.md
+```
 
 **How to view**
 
