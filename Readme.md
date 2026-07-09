@@ -26,7 +26,7 @@ A modern and responsive **multi-page shoe website** built using **HTML5** and **
 ```
 Shoe-Webpage/
 │
-├── index.html
+├── main.html
 ├── main.css
 │
 ├── image/
@@ -34,13 +34,16 @@ Shoe-Webpage/
 │   ├── profile.jpg
 │   └── ...
 │
-├── product.html          (Coming Soon)
-├── about.html            (Coming Soon)
-├── contact.html          (Coming Soon)
+├── product.html
+├── product.css         
+├── cart.html          
+├── cart.css
+├── payment.html
+├── payment.css        
 │
 └── README.md
 ```
 
 **How to view**
 
-Open files directly: double-click `index.html`
+Open files directly: double-click `main.html`
